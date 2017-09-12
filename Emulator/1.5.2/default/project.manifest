@@ -4,11 +4,11 @@
     "assets": {
         "assets.zip": {
             "compressed": true, 
-            "md5": "8df0ddc385c2d2a0b6c5beb9e30c31af"
+            "md5": "dfe0300d07072b16f582f29483aa4854"
         }
     }, 
     "remoteVersionUrl": "http://raw.githubusercontent.com/zdragon-cdn/hotupdate/Emulator/1.5.2/default/version.manifest", 
-    "version": "2017-09-13 01:12:47", 
+    "version": "2017-09-13 01:19:54", 
     "engineVersion": "creator 1.5.2", 
     "remoteManifestUrl": "http://raw.githubusercontent.com/zdragon-cdn/hotupdate/Emulator/1.5.2/default/project.manifest"
 }
