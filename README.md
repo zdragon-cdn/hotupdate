@@ -1,0 +1,2 @@
+# hotupdate
+hot update resources
