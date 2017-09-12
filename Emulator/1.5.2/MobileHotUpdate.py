@@ -100,22 +100,22 @@ def initHotUpdate(defaultRelativePath, sslRelativePath, creatorVersion):
     engineVersion = "creator " + creatorVersion
     
     projectManifest = ''' {
-               "packageUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/$project/$version/assets/", 
+               "packageUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/$project/$version/assets/", 
                 "searchPaths": {}, 
                 "assets": {}, 
-                "remoteVersionUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/$project/$version/$filedir/version.manifest", 
+                "remoteVersionUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/$project/$version/$filedir/version.manifest", 
                 "version": "2017-03-08 20:07:16", 
                 "engineVersion": "$engineVersion", 
-                "remoteManifestUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/$project/$version/$filedir/project.manifest"
+                "remoteManifestUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/$project/$version/$filedir/project.manifest"
             }'''
 
 
     versionManifest = '''{
-        "packageUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/$project/$version/assets/", 
-        "remoteVersionUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/$project/$version/$filedir/version.manifest", 
+        "packageUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/$project/$version/assets/", 
+        "remoteVersionUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/$project/$version/$filedir/version.manifest", 
         "version": "2017-03-08 20:07:16", 
         "engineVersion": "$engineVersion", 
-        "remoteManifestUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/$project/$version/$filedir/project.manifest"
+        "remoteManifestUrl": "$schema://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/$project/$version/$filedir/project.manifest"
     }'''
 
     #直接全部列出来 毕竟文件比较少

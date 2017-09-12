@@ -1,14 +1,14 @@
 {
-    "packageUrl": "https://raw.githubusercontent.com/zdragon-cdn/hotupdate/Emulator/1.5.2/assets/", 
+    "packageUrl": "https://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/Emulator/1.5.2/assets/", 
     "searchPaths": {}, 
     "assets": {
         "assets.zip": {
             "compressed": true, 
-            "md5": "dfe0300d07072b16f582f29483aa4854"
+            "md5": "80fb8529a33459ff16634617bab3b2e1"
         }
     }, 
-    "remoteVersionUrl": "https://raw.githubusercontent.com/zdragon-cdn/hotupdate/Emulator/1.5.2/ssl/version.manifest", 
-    "version": "2017-09-13 01:19:54", 
+    "remoteVersionUrl": "https://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/Emulator/1.5.2/ssl/version.manifest", 
+    "version": "2017-09-13 01:22:00", 
     "engineVersion": "creator 1.5.2", 
-    "remoteManifestUrl": "https://raw.githubusercontent.com/zdragon-cdn/hotupdate/Emulator/1.5.2/ssl/project.manifest"
+    "remoteManifestUrl": "https://raw.githubusercontent.com/zdragon-cdn/hotupdate/master/Emulator/1.5.2/ssl/project.manifest"
 }
